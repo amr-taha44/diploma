@@ -1,6 +1,8 @@
 from src import calculator as calc
 import pytest
-import allure
+
+
+
 addtest_value=[(5,10,15),(4,5,9),(8,8,16),(-10,-10,-20)]
 dividetest_value=[(10,5,2),(20,10,2),(15,3,5)]
 @pytest.mark.parametrize("a,b,sum",addtest_value)
@@ -17,5 +19,7 @@ def test_divide(a,b,mul):
     with pytest.raises(ValueError):
         calc.divide(a, 0)
 
-     
-
+def test_multbly():
+    assert calc.multibly(5, 6) == 30     
+    assert calc.multibly(6, 6) == 36
+    assert calc.multibly(5, 5) == 25
