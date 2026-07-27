@@ -1,0 +1,9 @@
+
+open database
+
+
+insert data to database
+
+
+close database
+

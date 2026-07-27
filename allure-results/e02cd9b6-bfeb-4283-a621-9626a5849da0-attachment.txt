@@ -1,0 +1,9 @@
+
+open database
+
+
+updat data
+
+
+close database
+
