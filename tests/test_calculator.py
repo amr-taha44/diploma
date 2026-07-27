@@ -20,6 +20,6 @@ def test_divide(a,b,mul):
         calc.divide(a, 0)
 
 def test_multbly():
-    assert calc.multibly(5, 6) == 3    
+    assert calc.multibly(5, 6) == 30    
     assert calc.multibly(6, 6) == 36
     assert calc.multibly(5, 5) == 25
